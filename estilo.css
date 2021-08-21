@@ -1,3 +1,8 @@
 html{
     background-color: blue;
+    font-size: 150%;
+    color: cornsilk;
+}
+.menu-flex{
+    display: flex;
 }
