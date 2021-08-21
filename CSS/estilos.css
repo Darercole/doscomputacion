@@ -23,9 +23,9 @@ html{
 .encabezado {
     background-image:url(../imagenes/memo.jpg);
     padding: 10px;
-    background-position:center;
+    background-position:top;
     background-size: 100%;
-    background-repeat: none;
+   /*background-repeat: none;*/
 } 
 
         /*----H1 Titulo y animacion----*/
