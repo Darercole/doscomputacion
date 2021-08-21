@@ -1,0 +1,224 @@
+/* ETIQUETAS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: rgb(212, 236, 105);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    height: 140vh;
+    width: 100%;
+    
+}
+        /*----LOGO----*/
+.logo{
+    width: 200px;
+    height: 200px;
+    border:solid;
+    border-radius: 40px;
+    
+}
+        /*----HEADER----*/
+.encabezado {
+    background-image:url(../imagenes/memo.jpg);
+    padding: 10px;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: none;
+} 
+
+        /*----H1 Titulo y animacion----*/
+h1{
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+    text-align-last: right;
+    background-color: rgb(185, 176, 42);
+    animation-name: example;
+    animation-duration: 3s;
+    width: 209vh;   
+    
+}
+
+@keyframes example {
+    
+    0% {background-color:rgb(25, 56, 7);width:1vh;}
+    50% {background-color: rgb(65, 88, 18);}
+    100% {background-color:  rgb(185, 176, 42); }
+}
+
+
+        /*----menu de navegacion----*/
+.menu-flex{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+
+}
+ul{
+    list-style:none;
+    
+}
+ul a{
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    
+}   
+ul a:hover{
+    background: rgb(77, 109, 15);
+    border-radius: 5px;
+    transform: scale(1.04);
+    
+
+}
+        /*----INDEX----*/
+
+.centrar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:50px ;
+    margin-right:50px ;
+    text-align: center;
+}
+.negrita{
+    font-weight: bold;
+    font-size: 25px;
+}
+.textoUno{
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+        /*menu de productos*/
+ul li a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    padding: 0px 0px;
+}
+ul li a:hover{
+    color: white;
+    background: rgb(5, 5, 5);
+    border-radius: 5px;
+    transform: scale(0);
+    padding: 3px;
+}
+
+.lista{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    
+} 
+
+       /*MAIN*/
+main{
+    margin: 10px;
+    color: rgb(7, 7, 7);
+}
+
+
+
+h2{
+    font-size: 35px;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}    
+.notoSans{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+span h2{
+    font-size: 30px;
+    font-family: 'noto sans jp';
+}
+        /*GALERIA DE IMAGENES*/
+
+        /*GRID*/
+
+/*.grid-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 10px;
+    padding: 10px;
+
+    
+}*/
+.retoque{
+    font-size: 60px;
+}
+.textgaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.galeriaPadre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.paraGaleria {
+    font-family:'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style:oblique;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.circulo {
+    width: 250px;
+    height: 290px;
+    border: solid rgb(26,46,32) 2px;
+    box-shadow: rgb(26, 46, 32) 2px 1px;
+    border-radius: 10px;
+    
+}
+/*.centrarFormulario {
+    text-align: center;
+}*/
+.bordes{
+    border: solid;
+    
+}
+
+    
+
+/*.contacto-centrar{
+    display: flex;
+    justify-content: center;
+
+}*/
+
+
+        /*----ASIDE----*/
+.dire{
+    display: flex;
+    justify-content: center;
+}
+        /*----FOOTER----*/
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.rotar{
+    width: 70px;
+    transition-duration: 3s;
+    transform: rotate(360deg);
+    
+
+   
+    
+}
+
+

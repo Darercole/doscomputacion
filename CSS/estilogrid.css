@@ -1,0 +1,190 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: rgb(212, 236, 105);
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    height: 200vh;
+    width: 100%;
+    
+}
+body { 
+    height: 600px;
+}
+/*LOGO*/
+.logo{
+    width: 200px;
+    height: 200px;
+    border:solid;
+    border-radius: 40px;
+    
+}
+
+       /*---GRID---*/
+
+/*#acomodar {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"  fila cabecera */
+ /*   "menunav menunav menunav menunav" menu de navegacion*/
+  /*  "formulario none none none"  formulario y mapa */
+   /* "none mapa mapa none"
+    "none dire dire none"
+    "none redes redes none" footer */  
+
+ /*   grid-template-columns: 1fr 1fr 1fr 1fr;
+}*/
+/*header{
+    grid-area: header;
+}
+nav{
+    grid-area: menunav;
+}
+#formu{
+    grid-area: formulario;
+    border: solid yellowgreen;
+    border-radius: 5%;
+}
+#mapa{
+    grid-area: mapa;
+}
+aside{
+    grid-area: dire;
+}
+footer{
+    grid-area: redes;  
+}*/
+/*form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+
+}*/
+    /*----fondo Encabezado----*/
+.fondo_encabezado {
+    background-image:url(../imagenes/memo.jpg);
+    padding: 10px;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: none;
+}
+     /*----H1 Titulo y animacion----*/
+h1{
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+    text-align-last: right;
+    background: rgb(185, 176, 42);
+    animation-name: example;
+    animation-duration: 3s;
+    width: 209vh;   
+    }
+    
+@keyframes example {
+        
+    0% {background-color:rgb(25, 56, 7);width:1vh;}
+    50% {background-color: rgb(34, 37, 28);}
+    100% {background-color:  rgb(185, 176, 42); }
+}
+
+    /*----menu de navegacion----*/
+.bordes{
+    border: solid;       
+}
+.menu-flex{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    background-color: black;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ul{
+    list-style:none;   
+}
+ul a{
+    color: rgb(252, 250, 250);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+ul a:hover{
+    background: rgb(77, 109, 15);
+    border-radius: 5px;
+    transform: scale(1.04);
+}
+    /*----FORMULARIO----*/
+.form{
+    background-color: rgb(106, 139, 72);
+    width: 40vh;
+    max-width: 400px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0);  
+}
+.ubicar{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+    /*----MAPA----*/
+h3{
+    text-align: center;
+    animation-duration: infinite;
+}
+.text {
+    font-size:50px;
+    font-weight:bold;
+    
+    text-transform:uppercase;
+}
+.parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  
+ 
+}
+  
+@keyframes parpadeo {
+    0%{color: yellow;}
+    50%{color:rgb(129, 86, 6);}
+    100%{color: red;}
+}
+  
+  
+
+.mapa{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0);
+    background-color: yellow;
+}
+        /*----ASIDE----*/
+.dire{
+    display: flex;
+    justify-content: center;
+}
+
+
+        /*----FOOTER----*/
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rotar{
+    width: 70px;
+    transition-duration: 3s;
+    transform: rotate(360deg);
+}
