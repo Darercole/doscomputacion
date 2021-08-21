@@ -36,8 +36,8 @@ h1{
     background-color: rgb(185, 176, 42);
     animation-name: example;
     animation-duration: 3s;
-    width: 209vh;   
-    
+    width: 100%;   
+    margin: 0%;
 }
 
 @keyframes example {
